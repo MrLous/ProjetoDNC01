@@ -1,0 +1,93 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+#divHead{    
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 103px 62px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#divInformation{
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+.info{
+    text-align: left;
+    margin: 50px 50px 50px 120px;
+}
+
+#divMission{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 60% 40%;
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+#divText{
+    text-align: left;
+    padding: 0px 35px 0px 0px;
+}
+
+#imgAp{
+    width: 397px;
+    height: 453px;
+}
+
+#divForm{
+    background-color: #303030;
+    color: #FFFFFF;
+    padding: 30px;
+    text-align: center;
+
+}
+
+#titleForm{
+    margin: 25px;
+}
+
+input{
+    font-family: 'Raleway', sans-serif;
+    width: 300px;
+    height: 40px;
+    margin: 15px;
+    border-radius: 8px;
+    border: 0;
+    padding-left: 10px;
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #c07212;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+button:hover{
+    background-color: #d48326;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 15px #684a28;
+    transition-duration: 0.01;
+}
